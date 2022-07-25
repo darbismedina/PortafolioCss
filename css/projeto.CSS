@@ -1,0 +1,186 @@
+
+
+body{
+    background-color: black;
+}
+
+.cabesalho{
+    background-color: #7880e8;
+    text-align: center;
+    margin: 0px 0px;
+}
+.titulo_nome{
+  
+}
+
+
+
+.titulo__principal{
+    display: block;
+    font-size: 32px;
+     text-align: center;
+     position: relative;
+     right:165px;
+}
+.titulo__secundario{
+    font-size: 20px;
+    
+
+}
+
+.menu{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.menu a{
+    width:100px;
+  text-decoration:none;
+  text-align:center;
+  color: lavender;
+  padding:3px 5px;
+  display:block;
+}
+
+.menu li{
+    float:left;
+    
+}
+
+
+
+
+
+.foto img {
+    border-radius: 700px;
+    position: relative;
+    left: 250px;
+    object-fit: contain;
+    
+}
+
+.sobre{
+    height: 425px;
+    width:230px ;
+    background-color:#7880e8 ;
+    border-radius: 50px;
+    margin-top: 10px;
+    box-shadow:5px  1px 2px 0 rgb(0 0 0 /12%);
+    padding-top: 10px;
+    position: relative;
+    left: 50px;
+    
+
+}
+
+.sobre: hover{
+    box-shadow:5px  1px 2px 0 rgb(0 0 0 /12%); ;
+
+}
+
+
+.p{
+    color: lavender;
+    
+}
+
+
+.div{
+    display: inline-block;
+    
+}
+
+.titulo_sobre{
+    background-color: blue;
+    color: lavender;
+    border-radius: 50px;
+    width: 150px;
+    margin: left 20px;
+    position: relative;
+    left: 35px;
+
+    
+    
+}
+
+.todo_sobre{
+    text-align: center;
+
+}
+
+.paragrafo__sobremim{
+    text-align: center;
+}
+
+   .estudos{
+    
+    height: 425px;
+    width:230px ;
+    background-color:#7880e8 ;
+    border-radius: 50px;
+    margin-top: 10px;
+    box-shadow:5px  1px 2px 0 rgb(0 0 0 /12%);
+    padding-top: 10px;
+    position: relative;
+    top: 38px;
+    left: 150px;
+   
+    
+}
+
+.titulo_estudos{
+    background-color: blue;
+    color: lavender;
+    border-radius: 50px;
+    width: 150px;
+    margin: left 20px;
+    position: relative;
+    left: 35px;
+
+}
+
+.meus_estudos{
+    text-align: center;
+}
+    
+.paragrafo_estudos{
+    text-align: center;
+
+}
+
+
+.objetivo{
+    height: 425px;
+    width:230px ;
+    background-color:#7880e8 ;
+    border-radius: 50px;
+    margin-top: 10px;
+    box-shadow:5px  1px 2px 0 rgb(0 0 0 /12%);
+    padding-top: 10px;
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    
+
+}
+
+.todo_objetivo{
+
+    background-color: blue;
+    color: lavender;
+    border-radius: 50px;
+    width: 150px;
+    margin: left 20px;
+    position: relative;
+    left: 35px;
+}
+    
+.titulo_objetivo{
+
+ text-align: center;
+}
+
+.paragrafo_objetivo{
+    text-align: center;
+}
