@@ -1,6 +1,9 @@
 
 
 body{
+    margin: 0;
+
+
     
 }
 
@@ -17,14 +20,24 @@ body{
     background-color:#7880e8 ;
 }
 
+.menu li{
+    list-style: none;
+    margin-top: 10px;
+  
+}
+ .menulista{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: blue
+    
+
+
+ }
 
 .menuh a{
     background-color:;
     color: white;
     text-decoration: none;
-    position: relative;
-    left: 75%;
-
     width: 20px;
     text-align: center;
     padding: 10px;
@@ -32,8 +45,27 @@ body{
 }
 
 .menuh a:hover {
-   background-color: white;
-    color: #7880e8 ;
+   background-color:;
+    color: #8ff10e ;
+}
+
+.avatar{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 90%;
+
+}
+
+.avatar img{
+    height: 100%;
+    width: 100%;
+
 }
 
 
@@ -64,10 +96,16 @@ body{
 
 .foto img {
     border-radius: 700px;
-    position: relative;
-    left: 250px;
+     position: relative;
+     left: 350px;
+    
     object-fit: contain;
     
+}
+
+.foto{
+    
+  
 }
 
 .sobre{
@@ -198,6 +236,8 @@ body{
 
 .pe{
     background-color: #7880e8;
+    margin-bottom: 0px;
+
 
 
 }
@@ -219,3 +259,8 @@ body{
     position: relative;
     left: 40%;
 }
+
+@media screen and (min-width:320px) {
+    
+}
+    
