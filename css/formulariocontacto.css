@@ -82,3 +82,30 @@ input:valid~label{
     color: #2196f3;
 
 }
+
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+
+}
+
+
+
+.barra::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    transition: 0.3s ease with;
+    left: 0;
+}
+
+
+input:focus~.barra::before{
+
+    width: 100%;
+
+}
