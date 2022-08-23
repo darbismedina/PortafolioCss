@@ -21,3 +21,25 @@ justify-content: center;
 align-items: center;
 
 }
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+form{
+    background-color: #fff;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo{
+    position: relative;
+    margin: 45px;
+}
