@@ -1,14 +1,23 @@
-.contato{
-    background-color: 347cee;
-    height:275px ;
-    width: 250px;
-    border-radius: 20px;
-    position: relative;
-    left: 35%;
-    
-    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
 }
 
-.formulario{
-    font-size: 20px;
+:root{
+    --colorTexto: #49454567;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 650px;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
