@@ -241,8 +241,21 @@ body{
 }
 .contato  {
     text-align: center;
+
+   
+}
+
+.contato a:hover{
+    background-color:;
+    color: #8ff10e ;
     
-}  
+}
+
+.contato a:link{
+    text-decoration: none;
+    
+}
+
 .formulario {
     color:lavender;
 
