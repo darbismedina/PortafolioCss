@@ -79,3 +79,14 @@ body {
     font-weight: bold;
     padding: 0 10px;
 }
+
+.inputbox input:focus,
+.inputbox input:valid {
+    height: 100%;
+}
+
+.inputbox input:focus + label,
+.inputbox input:valid + label {
+    top: -40px;
+    left: 0;
+}
