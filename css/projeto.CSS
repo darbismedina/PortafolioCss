@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 
 body{
     background: #4568DC;  /* fallback for old browsers */
@@ -33,7 +38,7 @@ body{
  }
 
 .menuh a{
-    background-color:;
+    
     color: white;
     text-decoration: none;
     width: 20px;
@@ -43,7 +48,7 @@ body{
 }
 
 .menuh a:hover {
-   background-color:;
+   
     color: #8ff10e ;
 }
 
@@ -65,6 +70,8 @@ body{
     width: 100%;
 
 }
+
+
 
 
 
@@ -95,16 +102,13 @@ body{
 .foto img {
     border-radius: 700px;
      position: relative;
-     left: 350px;
+     left: 380px;
     
     object-fit: contain;
     
 }
 
-.foto{
-    
-  
-}
+
 
 .sobre{
     height: 425px;
@@ -120,8 +124,8 @@ body{
 
 }
 
-.sobre: hover{
-    box-shadow:5px  1px 2px 0 rgb(0 0 0 /12%); ;
+.sobre hover{
+    box-shadow:5px  1px 2px 0 rgb(0 0 0 /12%); 
 
 }
 
@@ -246,7 +250,7 @@ body{
 }
 
 .contato a:hover{
-    background-color:;
+    
     color: #8ff10e ;
     
 }
@@ -271,11 +275,102 @@ body{
     left: 40%;
 }
 
-@media screen and (min-width:320px) {
+
+@media screen and (max-width:768px) {
+
+    .menu li{
+        text-align: center;
+        float: none;
+        width: 100%;
+        
+    }
+
+    .avatar {
+     
+        position: relative;
+        left:  50%;
+   
+}
+
+.foto img{
+    position: relative;
+ left: 30%;
+}
+
+.sobre{
+    position: relative;
+    right: 30%;
+    margin-right: 5%;
+
+}
+
+.estudos{
+    position: relative;
+    right: 30%;
     
+
+}
+
+.objetivo{
+    position: relative;
+left: 30%;
+margin-top: 90px;
+
 }
 
 
-
-
+  
     
+}
+
+    @media screen and (max-width:600px) {
+
+        .menu li{
+            text-align: center;
+            float: none;
+            width: 100%;
+           
+            
+        }
+
+        .avatar {
+         
+            position: relative;
+            left: 40% ;
+       
+    }
+
+    .foto img{
+        position: relative;
+     left: 12%;
+    }
+
+    .sobre{
+        position: relative;
+    left: 9%;
+    
+    }
+
+    .estudos{
+        position: relative;
+    left: 9%;
+    
+    }
+
+    .objetivo{
+        position: relative;
+    left: 9%;
+    margin-top: 90px;
+    
+    }
+
+    .pe img{
+
+        position: relative;
+        left:20%;
+    }
+
+
+
+
+}
